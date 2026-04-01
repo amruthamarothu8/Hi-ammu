@@ -1,9 +1,15 @@
-#include<stdio.h> 
-int main(){
-char name[7];
-printf("Enter your name: ");
-scanf("%s", user name);
+#include <stdio.h>
 
-printf("Hello, %s", user name);
+int main() {
+    int a, b, sum;
 
-return 0;
+    printf("Enter two numbers: ");
+    scanf("%d %d", &a, &b);
+
+    sum = a + b;
+
+    printf("Sum = %d", sum);
+
+    return 0;
+}
+
